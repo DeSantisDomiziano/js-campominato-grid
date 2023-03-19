@@ -1,27 +1,44 @@
 /* ######### SIZE WEB APP #########  */
 #site-header {
-    height: 15vh;
+    height: 100px;
 }
 
 #site-main {
-    height: 78vh;
+    height: calc(100vh - 160px);
     background-color: #282828;
     overflow-y: auto;
+    color: rgba(8, 232, 23, 0.933);
+    font-size: 1.25rem;
 }
 
 #site-footer {
-    height: 7vh;
+    height: 60px;
 }
 
 /* ########### STRUCTURE SITE MAIN ########## */
-#site-main .col {
-    min-width: calc(100% / 10 - 0.5rem);
+#site-main .dif_easy,
+#site-main .dif_medium,
+#site-main .dif_hard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     aspect-ratio: 1;
-    box-shadow: 0px 0px 4px 1px #ffffff;
     border-radius: 1rem;
+    box-shadow: 0px 0px 4px 1px #ffffff;
+}
+
+#site-main .dif_easy {
+    min-width: calc(100% / 10 - 0.5rem);
+}
+
+#site-main .dif_medium {
+    min-width: calc(100% / 9 - 0.5rem);
+}
+
+#site-main .dif_hard {
+    min-width: calc(100% / 7 - 0.5rem);
 }
 
 #site-main .row {
-    gap:  0.5rem;
-    
+    gap:  0.5rem;  
 }
