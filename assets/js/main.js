@@ -27,5 +27,16 @@ btn_el.addEventListener('click', function() {
             const square_el = `<div class="col dif_hard">${i + 1}</div>`
             main_el.insertAdjacentHTML('beforeend', square_el)
         }
-    }    
-} )
+    }
+    
+    
+    const squares_el = document.querySelectorAll('.row.py-3 > .col')
+    for(let i = 0; i < squares_el.length; i++) {
+        
+        const single_square = squares_el[i]
+        single_square.addEventListener('click', function() {
+            single_square.classList.toggle('active')
+        })
+    }
+    
+})

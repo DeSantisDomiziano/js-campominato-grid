@@ -7,7 +7,7 @@
     height: calc(100vh - 160px);
     background-color: #282828;
     overflow-y: auto;
-    color: rgba(8, 232, 23, 0.933);
+    color: #008000;
     font-size: 1.25rem;
 }
 
@@ -41,4 +41,10 @@
 
 #site-main .row {
     gap:  0.5rem;  
+}
+
+/* ####### BG CADA CLICK TOGGLE ######## */
+
+.active {
+    background-color: #ff6f00;
 }
