@@ -4,13 +4,13 @@
 }
 
 #site-main {
-    height: 70vh;
+    height: 78vh;
     background-color: #282828;
     overflow-y: auto;
 }
 
 #site-footer {
-    height: 15vh;
+    height: 7vh;
 }
 
 /* ########### STRUCTURE SITE MAIN ########## */
