@@ -1,11 +1,27 @@
+/* ######### SIZE WEB APP #########  */
 #site-header {
     height: 15vh;
 }
 
 #site-main {
     height: 70vh;
+    background-color: #282828;
+    overflow-y: auto;
 }
 
 #site-footer {
     height: 15vh;
+}
+
+/* ########### STRUCTURE SITE MAIN ########## */
+#site-main .col {
+    min-width: calc(100% / 10 - 0.5rem);
+    aspect-ratio: 1;
+    box-shadow: 0px 0px 4px 1px #ffffff;
+    border-radius: 1rem;
+}
+
+#site-main .row {
+    gap:  0.5rem;
+    
 }
